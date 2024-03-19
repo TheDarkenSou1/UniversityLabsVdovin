@@ -31,7 +31,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 2 (синяя) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -45,7 +44,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 3 (зеленая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -59,7 +57,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 4 (желтая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -73,7 +70,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 5 (оранжевая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -87,7 +83,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 6 (белая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -101,14 +96,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Направленное освещение -->
-            <ModelVisual3D>
-                <ModelVisual3D.Content>
-                    <DirectionalLight Color="White" Direction="-1,-1,-1"/>
-                </ModelVisual3D.Content>
-            </ModelVisual3D>
-
-            <!-- Окружающее освещение -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <AmbientLight Color="White"/>
@@ -137,7 +124,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 2 (синяя) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -151,7 +137,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 3 (зеленая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -165,7 +150,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 4 (желтая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -179,7 +163,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 5 (оранжевая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -193,7 +176,6 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Грань 6 (белая) -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -207,19 +189,12 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Направленное освещение -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
-                    <DirectionalLight Color="White" Direction="-1,-1,-1"/>
+                    <PointLight Color="Yellow" Position="-2, -3, -2"/>
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Окружающее освещение -->
-            <ModelVisual3D>
-                <ModelVisual3D.Content>
-                    <AmbientLight Color="White"/>
-                </ModelVisual3D.Content>
-            </ModelVisual3D>
         </Viewport3D>
     </Grid>
 </Window>
